@@ -1,0 +1,4 @@
+1修改预测类别：
+  coco_classes.txt和yolo.h5都不用动，改yolo.py里的代码就行了。在126行写两行代码对out_boxes, out_scores, out_classes进行筛选就可以了。
+2训练新类别：如何从COCO/VOC中抽取行人的标注用来训练？
+  https://github.com/qqwweee/keras-yolo3/issues/272
